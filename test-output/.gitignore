@@ -1,0 +1,9 @@
+/classes/
+/test-classes/
+.settings
+.project
+.classpath
+/target/*
+.allure
+
+/target/

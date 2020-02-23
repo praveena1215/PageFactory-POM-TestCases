@@ -1,0 +1,8 @@
+/target
+/Screenshots
+.classpath
+/.settings
+.project
+/allure-results
+/.apt_generated
+pom-backup.xml

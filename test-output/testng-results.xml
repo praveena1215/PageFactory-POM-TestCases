@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27629" started-at="2020-02-22T16:53:37Z" finished-at="2020-02-22T16:54:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27629" started-at="2020-02-22T16:53:37Z" finished-at="2020-02-22T16:54:05Z">
+      <class name="userfeel.Testcase.FeelUserTestCase">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:userfeel.Testcase.FeelUserTestCase@172ed45]" name="launchBrowser" is-config="true" duration-ms="14376" started-at="2020-02-22T16:53:38Z" finished-at="2020-02-22T16:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="executeTestcase()[pri:0, instance:userfeel.Testcase.FeelUserTestCase@172ed45]" name="executeTestcase" duration-ms="12124" started-at="2020-02-22T16:53:52Z" finished-at="2020-02-22T16:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestcase -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:userfeel.Testcase.FeelUserTestCase@172ed45]" name="closeBrowsers" is-config="true" duration-ms="1029" started-at="2020-02-22T16:54:04Z" finished-at="2020-02-22T16:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- userfeel.Testcase.FeelUserTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
