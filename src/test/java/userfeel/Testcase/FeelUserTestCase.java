@@ -1,5 +1,6 @@
 package userfeel.Testcase;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.testng.annotations.Test;
@@ -18,6 +19,10 @@ public class FeelUserTestCase extends CommonClass {
 	@Feature("UserFree Functionality")
 	@Severity(SeverityLevel.CRITICAL)
 	public void executeTestcase() throws IOException{
+		
+		File fileToDelete = new File("./Screenshot");
+		purgeDirectory(fileToDelete);
+		
 		new HomePage(driver)
 		.clickOnLogonIcon()
 		.enterUserId("dummy123@gmail.com")
@@ -34,4 +39,11 @@ public class FeelUserTestCase extends CommonClass {
 		
 	}
 
+	public static void purgeDirectory(File dir) {
+		for (File file : dir.listFiles()) {
+			if (file.isDirectory())
+				purgeDirectory(file);
+			file.delete();
+		}
+	}
 }
